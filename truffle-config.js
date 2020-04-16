@@ -14,18 +14,18 @@ module.exports = {
       network_id: '*'
     },
 
-    // mainnet: {
-    //   provider: () => new HDWalletProvider(
-    //     process.env.HDWALLET_MNEMONIC,
-    //     process.env.INFURA_PROVIDER_URL_MAINNET,
-    //     0,
-    //     3
-    //   ),
-    //   skipDryRun: true,
-    //   network_id: 1,
-    //   gas: 5000000
-    //   // gasPrice: 11.101 * 1000000000
-    // },
+    mainnet: {
+      provider: () => new HDWalletProvider(
+        process.env.HDWALLET_MNEMONIC,
+        process.env.INFURA_PROVIDER_URL_MAINNET,
+        0,
+        3
+      ),
+      skipDryRun: true,
+      network_id: 1,
+      gas: 7900000,
+      gasPrice: 3.101 * 1000000000
+    },
 
     mainnet_fork: {
       provider: () => new HDWalletProvider(

@@ -1,11 +1,11 @@
 {
   "contracts": {
     "DaiPod": {
-      "address": "0x23AA976A4413aC655a237Ff01083D62B0C4971e4",
+      "address": "0x18864fF3F5Cf5962B7d3E3726d1603DEb41aa5d5",
       "constructorCode": "608060405261518e806100136000396000f3fe",
-      "bodyBytecodeHash": "0a1cf846a2a100e5d8f818b7b9251a641f184cbaedae9359deaf80124c2e67fe",
+      "bodyBytecodeHash": "d4df5d3cbd4904cf71b54d0d6bed0981e9b3a0cd9cbfcc2094f4e82fe052c688",
       "localBytecodeHash": "6e01eb527803f876ff5eaebd1caca0eba6b79b7be00a69817dded3b61f73969b",
-      "deployedBytecodeHash": "5fb79ce9680fbd6bf96c49c1911873090c6256e0fc077563b57a3815abf4fad7",
+      "deployedBytecodeHash": "e1a198061decaed699bdbd3f200e35d87e23244b332191a3abf9580f9c7e4fb1",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -294,11 +294,11 @@
       }
     },
     "UsdcPod": {
-      "address": "0xec6DAc8357245808608aACF97346762468e550A3",
+      "address": "0x20c7a838e7Df5D9200d0CAA0168D40eFD8dF33f7",
       "constructorCode": "608060405261518e806100136000396000f3fe",
-      "bodyBytecodeHash": "0a1cf846a2a100e5d8f818b7b9251a641f184cbaedae9359deaf80124c2e67fe",
+      "bodyBytecodeHash": "d4df5d3cbd4904cf71b54d0d6bed0981e9b3a0cd9cbfcc2094f4e82fe052c688",
       "localBytecodeHash": "6e01eb527803f876ff5eaebd1caca0eba6b79b7be00a69817dded3b61f73969b",
-      "deployedBytecodeHash": "5fb79ce9680fbd6bf96c49c1911873090c6256e0fc077563b57a3815abf4fad7",
+      "deployedBytecodeHash": "e1a198061decaed699bdbd3f200e35d87e23244b332191a3abf9580f9c7e4fb1",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -589,7 +589,7 @@
   },
   "solidityLibs": {
     "FixedPoint": {
-      "address": "0xa3a551e9987253b13aF5097e8748b0aE8E8b9AFA",
+      "address": "0xdF1282558Aac68D21E65E8574E69F93ac879b4d8",
       "constructorCode": "610340610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe",
       "bodyBytecodeHash": "e4127e06980b9be7d1bdef99f0a9081ad5f1e1060ff3ffe866cb010c780879ee",
       "localBytecodeHash": "0bbd5c9321889cbdfc6d818730a8587f791701e255f35fcebfeeb63f7dd076f5",
@@ -599,19 +599,10 @@
   "proxies": {
     "pooltogether-pods/DaiPod": [
       {
-        "address": "0x9F4C5D8d9BE360DF36E67F52aE55C1B137B4d0C4",
+        "address": "0xD2Ac7E15C1243346bFdbbFb565082bbe1237FDC0",
         "version": "0.2",
-        "implementation": "0x23AA976A4413aC655a237Ff01083D62B0C4971e4",
-        "admin": "0xE8309a662C45CEaF5e9f52610B87A03d3A3C4C24",
-        "kind": "Upgradeable"
-      }
-    ],
-    "pooltogether-pods/UsdcPod": [
-      {
-        "address": "0x6F5587E191C8b222F634C78111F97c4851663ba4",
-        "version": "0.2",
-        "implementation": "0xec6DAc8357245808608aACF97346762468e550A3",
-        "admin": "0xE8309a662C45CEaF5e9f52610B87A03d3A3C4C24",
+        "implementation": "0x18864fF3F5Cf5962B7d3E3726d1603DEb41aa5d5",
+        "admin": "0x8Ed560aFBC373E352679bfc2aD13f5a240e61056",
         "kind": "Upgradeable"
       }
     ]
@@ -619,6 +610,6 @@
   "manifestVersion": "2.2",
   "version": "0.2",
   "proxyAdmin": {
-    "address": "0xE8309a662C45CEaF5e9f52610B87A03d3A3C4C24"
+    "address": "0x8Ed560aFBC373E352679bfc2aD13f5a240e61056"
   }
 }

@@ -11,7 +11,7 @@ async function migrate(context, ozNetworkName, ozOptions = '') {
 
   let poolDai, poolUsdc
   if (ozNetworkName === 'mainnet' || ozNetworkName === 'mainnet_fork') {
-    poolDai = '0x29fe7D60DdF151E5b52e5FAB4f1325da6b2bD958'
+    poolDai = '0x6C5492664df0ED36f29D654Fd62e9C3A3F6279A3'
     poolUsdc = '0x0034Ea9808E620A0EF79261c51AF20614B742B24'
   } else if (ozNetworkName === 'kovan') { //assume mainnet
     poolDai = '0xC3a62C8Af55c59642071bC171Ebd05Eb2479B663'
@@ -28,11 +28,11 @@ async function migrate(context, ozNetworkName, ozOptions = '') {
     context.reload()
   })
 
-  await migration.migrate(20, async () => {
-    console.log(chalk.green('Starting UsdcPod deployment...'))
-    runShell(`oz create UsdcPod --init initialize --args ${poolUsdc}`)
-    context.reload()
-  })
+  // await migration.migrate(20, async () => {
+  //   console.log(chalk.green('Starting UsdcPod deployment...'))
+  //   runShell(`oz create UsdcPod --init initialize --args ${poolUsdc}`)
+  //   context.reload()
+  // })
 
   console.log(chalk.green('Done!'))
 }
