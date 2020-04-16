@@ -605,6 +605,15 @@
         "admin": "0x8Ed560aFBC373E352679bfc2aD13f5a240e61056",
         "kind": "Upgradeable"
       }
+    ],
+    "pooltogether-pods/UsdcPod": [
+      {
+        "address": "0x395fcB67ff8fdf5b9e2AeeCc02Ef7A8DE87a6677",
+        "version": "0.2",
+        "implementation": "0x20c7a838e7Df5D9200d0CAA0168D40eFD8dF33f7",
+        "admin": "0x8Ed560aFBC373E352679bfc2aD13f5a240e61056",
+        "kind": "Upgradeable"
+      }
     ]
   },
   "manifestVersion": "2.2",
