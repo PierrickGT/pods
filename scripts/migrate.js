@@ -34,6 +34,12 @@ async function migrate(context, ozNetworkName, ozOptions = '') {
     context.reload()
   })
 
+  await migration.migrate(30, async () => {
+    console.log(chalk.green('Starting DonutPod deployment...'))
+    runShell(`oz create DonutPod --init initialize --args ${poolDai}`)
+    context.reload();
+  })
+
   console.log(chalk.green('Done!'))
 }
 
