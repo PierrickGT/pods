@@ -910,10 +910,10 @@
     ],
     "pooltogether-pods/DonutPod": [
       {
-        "address": "0xeFde0E7fC78B2839B7773231bc7Cd734Ee6dB1d3",
+        "address": "0xa7cb37bAc06E9E8cf0B76Adb6bb554c68F0A4ac9",
         "version": "0.2",
         "implementation": "0x72cEf578D9d999f622Be096a9eE9C4999300BB8F",
-        "admin": "0x557a4d8bB7EFE8bca9a5d3C42C5600f93036ba38",
+        "admin": "0xF60160A22105c37fd63492375d86a2Ffa0Ee61Fe",
         "kind": "Upgradeable"
       }
     ]
