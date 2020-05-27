@@ -1,6 +1,6 @@
 {
   "name": "@pooltogether/pods",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "PoolTogether Pods: combine your tickets together for a better chance to win!",
   "main": "index.js",
   "homepage": "https://github.com/pooltogether/pods",
@@ -25,6 +25,7 @@
     "session-mainnet": "openzeppelin session --from $ADMIN_ADDRESS --network mainnet --expires 7200 --timeout 3600",
     "session-mainnet_fork": "openzeppelin session --from $ADMIN_ADDRESS --network mainnet_fork --expires 7200 --timeout 3600",
     "push": "openzeppelin push",
+    "push-kovan": "oz push --network kovan --deploy-proxy-admin",
     "console": "oz-console --network http://127.0.0.1:8545 -c .openzeppelin/dev-1234.json -m \"$HDWALLET_MNEMONIC\"",
     "console-mainnet": "oz-console --network mainnet -m \"$HDWALLET_MNEMONIC\"",
     "console-mainnet_fork": "oz-console --network $LOCALHOST_URL -c .openzeppelin/dev-999.json -m \"$HDWALLET_MNEMONIC\"",
