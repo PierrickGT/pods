@@ -19,7 +19,7 @@ If you'd like to deploy Pods and a mock Pool so you can play with them try the [
 | -------       | --------          | ----------- |
 | DaiPod    | [0x395fcB67ff8fdf5b9e2AeeCc02Ef7A8DE87a6677](https://kovan.etherscan.io/address/0x395fcB67ff8fdf5b9e2AeeCc02Ef7A8DE87a6677) | [0x3fe4bf988948888F52a548d179140F6Aee01ABaA](https://kovan.etherscan.io/address/0x3fe4bf988948888F52a548d179140F6Aee01ABaA) |
 | UsdcPod    | [0x9191Fd9f29cbbE73bA0e1B8959eC89Bc780e598b](https://kovan.etherscan.io/address/0x9191Fd9f29cbbE73bA0e1B8959eC89Bc780e598b) | [0xa2dA6860897aAB3b90384d150c9655a6356d0832](https://kovan.etherscan.io/address/0xa2dA6860897aAB3b90384d150c9655a6356d0832) |
-| DonutPod    | [0xeFde0E7fC78B2839B7773231bc7Cd734Ee6dB1d3](https://kovan.etherscan.io/address/0xeFde0E7fC78B2839B7773231bc7Cd734Ee6dB1d3) | [0x72cEf578D9d999f622Be096a9eE9C4999300BB8F](https://kovan.etherscan.io/address/0x72cEf578D9d999f622Be096a9eE9C4999300BB8F) |
+| DonutPod    | [0xa7cb37bAc06E9E8cf0B76Adb6bb554c68F0A4ac9](https://kovan.etherscan.io/address/0xa7cb37bAc06E9E8cf0B76Adb6bb554c68F0A4ac9) | [0x72cEf578D9d999f622Be096a9eE9C4999300BB8F](https://kovan.etherscan.io/address/0x72cEf578D9d999f622Be096a9eE9C4999300BB8F) |
 
 # Development
 
